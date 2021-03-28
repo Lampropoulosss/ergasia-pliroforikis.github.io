@@ -175,6 +175,10 @@ footer .container p {
 		display: block;
 	}
 
+	.navbar a:last-child {
+		padding-bottom: 15px;
+	}
+
 	footer p {
 		text-align: center;
 	}
