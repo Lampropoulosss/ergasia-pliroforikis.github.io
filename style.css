@@ -19,7 +19,6 @@ header::after {
 	position: absolute;
 	top: -350px;
 	content: "";
-	/*background-color: #047aed;*/
 	background-image: linear-gradient(to bottom, #047aed, #6c08a2);
 	background-image: -moz-linear-gradient(to bottom, #047aed, #6c08a2);
 	background-image: -webkit-linear-gradient(to bottom, #047aed, #6c08a2);
