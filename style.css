@@ -19,7 +19,10 @@ header::after {
 	position: absolute;
 	top: -350px;
 	content: "";
-	background-color: #047aed;
+	/*background-color: #047aed;*/
+	background-image: linear-gradient(to bottom, #047aed, #6c08a2);
+	background-image: -moz-linear-gradient(to bottom, #047aed, #6c08a2);
+	background-image: -webkit-linear-gradient(to bottom, #047aed, #6c08a2);
 	height: 120%;
 	width: 100%;
 	z-index: -1;
@@ -31,11 +34,13 @@ h1 {
 	text-align: center;
 	color: #fff;
 	font-size: 2.3rem;
+	line-height: 2rem;
 }
 
 h2, h3, h4, h5, h6 {
 	margin: 20px 0;
 	text-align: center;
+	line-height: 1.6rem;
 }
 
 blockquote {
@@ -171,6 +176,10 @@ footer .container p {
 
 	.navbar a {
 		display: block;
+	}
+
+	.navbar a:last-child {
+		padding-bottom: 15px;
 	}
 
 	footer p {
